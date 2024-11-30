@@ -4,6 +4,6 @@ title: "Blog"
 permalink: /blog/
 ---
 
-# My Blog
+# Welcome to My Blog
 
-Welcome to my blog! Here are my latest posts:
+This is where I'll share my latest posts.

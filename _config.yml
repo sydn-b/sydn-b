@@ -9,5 +9,6 @@ navigation:
   - blog: /blog/
   - cv: /cv/
 
+baseurl: "/sydn-b.github.io"   # Add this line if you're using a subdirectory for GitHub Pages
 url: "https://sydn-b.github.io"
 

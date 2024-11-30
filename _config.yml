@@ -4,7 +4,10 @@
 
 
 
-	navigation:
-  	- about: /about/
-  	- blog: /blog/
-  	- cv: /cv/
+navigation:
+  - about: /about/
+  - blog: /blog/
+  - cv: /cv/
+
+url: "https://sydn-b.github.io"
+

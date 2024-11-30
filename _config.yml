@@ -1,14 +1,14 @@
-	name: Hank Quinlan, Horrible Cop
-	markdown: kramdown
-	permalink: /blog/:year/:month/:day/:title
+title: Hank Quinlan's Horrible Cop Website
+description: "A personal website about Hank Quinlan, the horrible cop."
+theme: minima
 
+baseurl: ""  # Leave this empty if your site is hosted at the root of your username.github.io
 
+url: "https://sydn-b.github.io"  # Replace with your actual GitHub Pages URL
 
+# Optional: navigation settings
 navigation:
   - about: /about/
   - blog: /blog/
   - cv: /cv/
-
-baseurl: "/sydn-b.github.io"   # Add this line if you're using a subdirectory for GitHub Pages
-url: "https://sydn-b.github.io"
 

@@ -1,11 +1,82 @@
 ---
 layout: default
 title: Hank Quinlan's CV
+permalink: /cv/
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+  <header>
+    <h1>Curriculum Vitae</h1>
+    <p>Welcome to my CV page. Here you'll find information about my professional background, experience, education, and skills.</p>
+  </header>
+
+  <section id="personal-info">
+    <h2>Personal Information</h2>
+    <p><strong>Name:</strong> [Your Name]</p>
+    <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p><strong>Phone:</strong> [Your Phone Number]</p>
+    <p><strong>Location:</strong> [City, Country]</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></p>
+  </section>
+
+  <section id="work-experience">
+    <h2>Work Experience</h2>
+    <div class="job">
+      <h3>[Job Title] - [Company Name] <span class="dates">[Start Date] – [End Date]</span></h3>
+      <p><strong>Description:</strong> Describe your role, responsibilities, and any key achievements or projects you worked on. For example:</p>
+      <ul>
+        <li>Led a team of 5 developers to build a scalable web application</li>
+        <li>Implemented a new user interface with React, improving user experience by 30%</li>
+        <li>Collaborated with the design team to develop interactive prototypes</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>[Job Title] - [Company Name] <span class="dates">[Start Date] – [End Date]</span></h3>
+      <p><strong>Description:</strong> Include details about your previous job experiences, focusing on your responsibilities and any notable results or metrics.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="degree">
+      <h3>[Degree] in [Field of Study] – [University Name] <span class="dates">[Graduation Date]</span></h3>
+      <p><strong>Description:</strong> Mention any key coursework, honors, or awards you received during your studies.</p>
+    </div>
+    <div class="degree">
+      <h3>[Degree] in [Field of Study] – [University Name] <span class="dates">[Graduation Date]</span></h3>
+      <p><strong>Description:</strong> Briefly describe your education background and any relevant skills gained from your studies.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, Python, Java</li>
+      <li><strong>Frameworks & Libraries:</strong> React, Node.js, Express, Flask</li>
+      <li><strong>Tools & Platforms:</strong> Git, Docker, AWS, Heroku</li>
+      <li><strong>Soft Skills:</strong> Team Collaboration, Time Management, Problem-Solving</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>[Certification Name] – [Issuing Organization] – [Year]</li>
+      <li>[Certification Name] – [Issuing Organization] – [Year]</li>
+    </ul>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li><strong>[Language Name]</strong>: [Proficiency Level]</li>
+      <li><strong>[Language Name]</strong>: [Proficiency Level]</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Thank you for reviewing my CV! Feel free to contact me if you'd like to learn more.</p>
+  </footer>
+
+</body>
+</html>

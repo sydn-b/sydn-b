@@ -1,15 +1,68 @@
 ---
-layout: default
-title: Hank Quinlan's About
+layout: page
+title: "About Me"
+permalink: /about/
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
 
-# About Me
+  <header>
+    <h1>About Me</h1>
+    <p>Welcome to my personal website! Here’s a little more about who I am.</p>
+  </header>
 
-This is where you can put your bio or other information.
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Hello! I'm [Your Name], a passionate web developer with experience in front-end technologies like HTML, CSS, and JavaScript. I love building things that make the web more interactive and engaging.</p>
+    <p>When I'm not coding, I enjoy hiking, reading, and exploring new technologies.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> HTML, CSS, JavaScript, Python</li>
+      <li><strong>Frameworks & Tools:</strong> React, Jekyll, Node.js, Git, Bootstrap</li>
+      <li><strong>Design Tools:</strong> Figma, Adobe XD</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>I graduated from [University Name] with a degree in [Your Degree] in [Year]. Throughout my studies, I focused on [Your Focus, e.g., "web development" or "computer science"].</p>
+    <p>In addition to my formal education, I have completed several online courses in web development, UI/UX design, and software engineering.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out to me through the following:</p>
+    <ul>
+      <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Thank you for visiting my site!</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

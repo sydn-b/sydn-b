@@ -1,12 +1,17 @@
-layout: default
-title: Hank Quinlan's Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+layout: page
+title: "Blog"
+permalink: /blog/
+---
 
-<h1>This is where I'll share my latest posts.<h1>
+# Welcome to My Blog
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+This is where I'll share my latest posts.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - 
+      <small>{{ post.date | date_to_string }}</small>
+    </li>
+  {% endfor %}
+</ul>

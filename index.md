@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: Sydney Brutus, Computer Science Student
 ---
 <div class="blurb">
-	<h1>Hello there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+	<h1>Hello there, I'm Sydney Brutus!</h1>
+	<p>I'm a senior computer science student from <em>Bowie State University</em> in Bowie, MD. <a href="/about">Read more about my life...</a></p>
 </div><!-- /.blurb -->
